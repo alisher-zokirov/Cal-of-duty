@@ -1,0 +1,153 @@
+*{
+  color: white;
+  font-family: 'Roboto';
+}
+.navbar, body{
+  background: #141C24 !important;
+}
+.navbar .navbar-links a{
+  font-weight: 300;
+  font-size: 16px;
+}
+.navbar .navbar-links a:hover{
+  font-weight: 400;
+  border-bottom: 1px solid #00C5FF;
+  padding-bottom: 8px;
+}
+.carousel{
+  margin-top: 100px;
+}
+.carousel-caption{
+  bottom: 22%;
+}
+.carousel-caption h5{
+  font-size: 16px;
+  font-weight: 500;
+}
+.carousel-caption p{
+  font-family: 'AireExterior';
+  font-size: 48px;
+  line-height: 30px;
+}
+.slider-button{
+  font-family: 'AireExterior';
+  font-size: 24px;
+  color: black;
+  border: none;
+  padding: 10px 89px;
+  margin-top: 97px;
+  border-radius: 0 30px 0 30px;
+}
+.computer{
+  margin-top: 154px;
+}
+.line{
+  display: flex;
+  align-items: center;
+  gap: 34px;
+}
+.line66{
+  width: 50px;
+  background-color: #57D6FF;
+  height: 1px;  
+}
+.line p{
+  color: #57D6FF;
+  font-size: 16px;
+  font-weight: 300;
+}
+.comp-heading{
+  font-size: 39px;
+  font-family: 'AireExterior';
+  margin-bottom: 60px;
+}
+.comp-text{
+  color: #ABABAB;
+  font-size: 21.33px;
+  font-weight: 300;
+  line-height: 150%
+}
+.line67{
+  width: 271px;
+  background: rgba(255, 255, 255, 0.20);
+  height: 1px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.comp-link{
+  text-decoration: none;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #00C5FF;
+  color: #00C5FF;
+}
+.picture-content{
+  max-width: 848px;
+}
+.gaming{
+  padding-top: 87px;
+  padding-bottom: 154px;
+}
+.picture-content{
+  margin-bottom: 90px;
+  margin-top: 90px;
+}
+/* products */
+.products-content .col-4{
+  transition: 1s;
+}
+.products-content .col-4:hover{
+  transform: scale(1.1)
+}
+.products-card{
+  border-radius: 5px;
+  background: #1F2631;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  padding: 66px 37px 37px 37px;
+  border: 10px solid #141C24;
+}
+.products-card h4{
+  font-size: 36px;
+  font-weight: 700;
+}
+.products-card__price{
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+.procucts-card__text{
+  color: #ABABAB;
+  font-size: 21.33px;
+  font-weight: 300;
+  line-height: 150%;
+}
+.card-button{
+  font-family: 'AireExterior';
+  font-size: 24px;
+  color: #141C24;
+  border-radius: 5px;
+  background: #00C5FF;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.windows{
+  padding-top: 245px;
+  padding-bottom: 68px;
+}
+
+@media(max-width: 678px){
+  .computer{
+    margin-top: 50px;
+  }
+}
+
+/* footer */
+.footer{
+  background: #171717;
+}
+
+.footer, .container{
+  padding-top: 63px;
+  padding-bottom: 63px;
+  gap: 311px;
+}
+/* footer end */
